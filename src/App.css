@@ -118,3 +118,83 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
+
+.padre {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.tamano-imagen {
+  width: 100%;
+  height: 500px;
+}
+
+.estilo-imagen {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.caja-texto {
+  background-color: #cccccc40;
+  border-color: slategrey;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  border-width: 0px;
+  margin-bottom: 20px;
+  color: #8758ff;
+}
+
+.caja-texto:focus {
+  outline: 1px solid #8758ff;
+  box-shadow: 0 0 10px #8758ff;
+}
+
+.btnForm {
+  background-color: #8758ff;
+  color: white;
+  border-radius: 30px;
+  padding: 15px;
+  width: 100%;
+  border-width: 0px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.taxto {
+  color: slategray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+.btnForm2 {
+  background-color: #43258f;
+  color: white;
+  border-radius: 30px;
+  padding: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.textoHome {
+  color: black;
+  margin-top: -200px;
+  font-size: small;
+  font-weight: bold;
+  /* Aplicar negritas */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Efecto de sombra */
+}
+
+
+.textoHome1 {
+  color: wheat;
+  margin-top: -200px;
+  font-size: small;
+}
